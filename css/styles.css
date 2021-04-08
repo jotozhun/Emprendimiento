@@ -1,0 +1,37 @@
+.first-row{
+    background: #769de4;
+    height: 550px;
+}
+
+.title-h{
+    height: 0px !important;
+}
+
+.first-row-img{
+    height: 360px;
+    width: 360px;
+}
+
+.justified-text{
+    text-align: justify;
+}
+
+.second-row{
+    height: 440px;
+    background-color: #222b6f;
+}
+
+.size-row{
+    height: 150px;
+    width: 150px;
+}
+
+@media screen and (max-width: 991px) {
+    .first-row{
+        height: 650px;
+    }
+
+    .second-row{
+        height: 900px;
+    }
+}
